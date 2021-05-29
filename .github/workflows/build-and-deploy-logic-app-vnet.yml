@@ -8,7 +8,7 @@ on:
         required: true
 
 env:
-  AZURE_LOGICAPPBE_PACKAGE_PATH: '\'
+  AZURE_LOGICAPPBE_PACKAGE_PATH: '.'
 
 jobs:
   build-and-deploy:
