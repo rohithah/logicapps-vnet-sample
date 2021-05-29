@@ -1,3 +1,12 @@
+name: build-and-deploy-logic-app-vnet
+
+on:
+  workflow_dispatch:
+    inputs:
+      LogicAppBEName:
+        description: 'Name of the FE Logic App'
+        required: true
+
 env:
   AZURE_LOGICAPPBE_PACKAGE_PATH: '\'
 
